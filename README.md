@@ -49,5 +49,45 @@ We welcome your contributions!
 
 ---
 
-## 📦 Folder Structure
 
+---
+
+## 🎯 Goals
+
+- ✔️ Empower ethical consumerism
+- ✔️ Support local Algerian businesses
+- ✔️ Spread awareness via QR codes and social media
+- ✔️ Keep the information factual, neutral, and verifiable
+
+---
+
+## 📣 Spread the Word
+
+Create and share a **QR Code** that links to this guide  
+Use posters, flyers, or social media captions like:
+
+> "هل تعلم أن منتجك قد يموّل الاحتلال؟ افحص قبل ما تشتري!"
+>  
+> [Scan the QR code to learn more → 📱]
+
+---
+
+## 📫 Contact & Feedback
+
+Questions? Suggestions?  
+Feel free to open an issue or contact the maintainer.
+
+---
+
+## 🇵🇸 In Solidarity
+
+> _"المقاطعة ليست فقط وسيلة، بل موقف أخلاقي."_  
+> _"Boycotting is not just a method — it's a moral stance."_  
+
+---
+
+## 📝 License
+
+This project is released under the [MIT License](LICENSE).
+
+---
