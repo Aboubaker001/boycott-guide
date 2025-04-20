@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Your config (replace values) -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics-compat.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyD-elt-urG-WZkJuqYXgB7qf1IGFM9Qi3k",
+    authDomain: "boycott-guide.firebaseapp.com",
+    projectId: "boycott-guide",
+    storageBucket: "boycott-guide.firebasestorage.app",
+    messagingSenderId: "682549481687",
+    appId: "1:682549481687:web:acc59444f700e4a99ce092",
+    measurementId: "G-M33KN6ZDE0"
+  };
+  
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  </script>
+
+  <title>الشركات الداعمة لإسرائيل - دليلك للمقاطعة</title>
+  
+  <!-- Shared resources -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body class="bg-gray-50 dark:bg-slate-900">
+  <!-- Navigation would be consistent across pages -->
+  <header>
+    <!-- Same header as index.html -->
+  </header>
+  
+  <main class="container mx-auto px-4 py-8">
+    <!-- Page-specific content -->
+    <h1 data-animate="animate-fade">الشركات الداعمة لإسرائيل</h1>
+    
+    <div class="grid md:grid-cols-2 gap-6 mt-8">
+      <!-- Company cards with data-animate for staggered animations -->
+      <div class="company-card" data-animate="animate-slide">
+        <!-- Content -->
+      </div>
+    </div>
+  </main>
+  
+  <!-- Shared footer -->
+  <footer>
+    <!-- Same footer as index.html -->
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="../js/darkmode.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>

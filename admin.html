@@ -1,0 +1,24 @@
+<div id="admin-panel" class="hidden">
+  <h2>لوحة المشرف</h2>
+  <div id="pending-list"></div>
+</div>
+
+<script>
+  // Load pending approvals
+  function loadPending() {
+    alternativesRef
+      .where("approved", "==", false)
+      .get()
+      .then((snapshot) => {
+        const list = document.getElementById("pending-list");
+        snapshot.forEach((doc) => {
+          list.innerHTML += `
+              <div class="pending-item">
+                <p>${doc.data().boycotted} → ${doc.data().alternative}</p>
+                <button onclick="approve('${doc.id}')">موافقة</button>
+              </div>
+            `;
+        });
+      });
+  }
+</script>

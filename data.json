@@ -1,0 +1,670 @@
+{
+    "companies": [
+        {
+            "name": "Lockheed Martin",
+            "description": "Provides F-35 fighter jets to Israel ($3B contract)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lockheed_Martin_logo.svg/1200px-Lockheed_Martin_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Primary defense contractor for Israel's military, supplies missiles and aircraft systems"
+        },
+        {
+            "name": "Boeing",
+            "description": "Sells Apache helicopters & missile systems to Israel ($1.2B annually)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Boeing_logo.svg/1200px-Boeing_logo.svg.png",
+            "category": "High",
+            "supportType": "Military/Financial",
+            "details": "Provides Israel with 50% of its military aircraft fleet"
+        },
+        {
+            "name": "General Dynamics",
+            "description": "Supplies armored vehicles to Israeli military",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/General_Dynamics_logo.svg/1200px-General_Dynamics_logo.svg.png",
+            "category": "High",
+            "supportType": "Military",
+            "details": "Provides Namer armored personnel carriers used in Gaza operations"
+        },
+        {
+            "name": "Raytheon Technologies",
+            "description": "Makes Iron Dome missile components ($2B+ contracts)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Raytheon_Technologies_logo.svg/1200px-Raytheon_Technologies_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Co-producer of Iron Dome system that intercepts Palestinian rockets"
+        },
+        {
+            "name": "Elbit Systems",
+            "description": "Israeli weapons manufacturer (Drones, surveillance tech)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Elbit_Systems_Logo.svg/1200px-Elbit_Systems_Logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Provides 85% of Israel's military drones and border surveillance systems"
+        },
+        {
+            "name": "HP Enterprise",
+            "description": "Provides IT systems to Israeli military",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_Enterprise_logo.svg/1200px-HP_Enterprise_logo.svg.png",
+            "category": "High",
+            "supportType": "Technological",
+            "details": "Maintains data centers for Israel Defense Forces"
+        },
+        {
+            "name": "Caterpillar Inc.",
+            "description": "Supplies bulldozers used in home demolitions",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Caterpillar_logo.svg/1200px-Caterpillar_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military/Infrastructure",
+            "details": "D9 armored bulldozers have destroyed 50,000+ Palestinian homes since 1967"
+        },
+        {
+            "name": "Siemens",
+            "description": "Builds infrastructure in illegal settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png",
+            "category": "High",
+            "supportType": "Infrastructure",
+            "details": "Installs rail systems connecting West Bank settlements to Israel"
+        },
+        {
+            "name": "Puma",
+            "description": "Sponsors Israel Football Association",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Puma_AG.svg/1200px-Puma_AG.svg.png",
+            "category": "Medium",
+            "supportType": "Financial/Sports",
+            "details": "Supports teams that include players from illegal settlements"
+        },
+        {
+            "name": "Ahava",
+            "description": "Makes cosmetics using Dead Sea minerals from occupied land",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ahava_logo.svg/1200px-Ahava_logo.svg.png",
+            "category": "High",
+            "supportType": "Economic",
+            "details": "Factory located in Mitzpe Shalem settlement (West Bank)"
+        },
+        {
+            "name": "SodaStream",
+            "description": "Operated factory in illegal settlement until 2015",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Sodastream_logo.svg/1200px-Sodastream_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Now moved within Israel but still employs settlers"
+        },
+        {
+            "name": "Expedia",
+            "description": "Lists hotels in illegal settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Expedia_2012_logo.svg/1200px-Expedia_2012_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Promotes tourism in occupied territories"
+        },
+        {
+            "name": "Airbnb",
+            "description": "Listed settlement properties until 2018",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Still lists properties near settlements"
+        },
+        {
+            "name": "Motorola Solutions",
+            "description": "Provides surveillance systems for settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Motorola_Solutions.svg/1200px-Motorola_Solutions.svg.png",
+            "category": "High",
+            "supportType": "Military/Technological",
+            "details": "Makes system monitoring West Bank"
+        },
+        {
+            "name": "General Mills",
+            "description": "Operates factory in Atarot settlement",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/General_Mills_logo.svg/1200px-General_Mills_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Produces Pillsbury products in occupied East Jerusalem"
+        },
+        {
+            "name": "Volvo",
+            "description": "Sells armored vehicles to Israel",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Volvo_logo.svg/1200px-Volvo_logo.svg.png",
+            "category": "High",
+            "supportType": "Military",
+            "details": "Provides chassis for Israeli military vehicles"
+        },
+        {
+            "name": "AXA",
+            "description": "Invests $35M in Israeli banks financing settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Axa_logo.svg/1200px-Axa_logo.svg.png",
+            "category": "High",
+            "supportType": "Financial",
+            "details": "Major investor in Bank Hapoalim"
+        },
+        {
+            "name": "Bank Hapoalim",
+            "description": "Finances settlement construction",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bank_Hapoalim_logo.svg/1200px-Bank_Hapoalim_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Financial",
+            "details": "Provides mortgages for settlers in West Bank"
+        },
+        {
+            "name": "Leumi Bank",
+            "description": "Funds settlement infrastructure",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Leumi_logo.svg/1200px-Leumi_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Financial",
+            "details": "Operates branches in illegal settlements"
+        },
+        {
+            "name": "Teva Pharmaceutical",
+            "description": "Operates in settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Teva_Pharmaceutical_Industries_logo.svg/1200px-Teva_Pharmaceutical_Industries_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Largest generic drug maker with facilities in occupied territories"
+        },
+        {
+            "name": "Booking.com",
+            "description": "Lists hotels in settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Booking.com_logo.svg/1200px-Booking.com_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Promotes tourism in occupied East Jerusalem"
+        },
+        {
+            "name": "JCB",
+            "description": "Equipment used in home demolitions",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/JCB_logo.svg/1200px-JCB_logo.svg.png",
+            "category": "High",
+            "supportType": "Military/Infrastructure",
+            "details": "Bulldozers used in Palestinian home demolitions"
+        },
+        {
+            "name": "Hyatt Hotels",
+            "description": "Operates in settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hyatt_logo.svg/1200px-Hyatt_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Runs hotel in occupied East Jerusalem"
+        },
+        {
+            "name": "Re/Max",
+            "description": "Sells settlement properties",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/REMAX_logo.svg/1200px-REMAX_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Active in West Bank settlement real estate market"
+        },
+        {
+            "name": "Mekorot",
+            "description": "Israel's national water company",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Mekorot_logo.svg/1200px-Mekorot_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Infrastructure",
+            "details": "Diverts water from Palestinians to settlements"
+        },
+        {
+            "name": "Intel",
+            "description": "Major investor in Israeli tech ($10B+)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Intel_logo_%282006-2020%29.svg/1200px-Intel_logo_%282006-2020%29.svg.png",
+            "category": "High",
+            "supportType": "Economic/Technological",
+            "details": "Operates R&D centers in illegal settlements"
+        },
+        {
+            "name": "Google",
+            "description": "Provides cloud services to Israeli military",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png",
+            "category": "High",
+            "supportType": "Technological",
+            "details": "Project Nimbus provides AI tools to IDF"
+        },
+        {
+            "name": "Amazon",
+            "description": "Provides cloud services to Israeli government",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png",
+            "category": "High",
+            "supportType": "Technological",
+            "details": "Part of $1.2B Project Nimbus contract"
+        },
+        {
+            "name": "Microsoft",
+            "description": "Provides tech to Israeli military",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1200px-Microsoft_logo.svg.png",
+            "category": "High",
+            "supportType": "Technological",
+            "details": "Azure cloud services used by Israeli security forces"
+        },
+        {
+            "name": "Facebook",
+            "description": "Censors Palestinian content",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png",
+            "category": "Medium",
+            "supportType": "Political",
+            "details": "Works with Israeli government to remove Palestinian posts"
+        },
+        {
+            "name": "Pfizer",
+            "description": "Operates in settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pfizer_logo.svg/1200px-Pfizer_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Acquired Israeli drug maker with settlement facilities"
+        },
+        {
+            "name": "Bayer",
+            "description": "Owns settlement-based agrochemical company",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Bayer_logo.svg/1200px-Bayer_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Purchased Monsanto which operates in settlements"
+        },
+        {
+            "name": "Hewlett Packard",
+            "description": "Provides tech to Israeli military",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1200px-HP_logo_2012.svg.png",
+            "category": "High",
+            "supportType": "Technological",
+            "details": "Biometric systems used at checkpoints"
+        },
+        {
+            "name": "IBM",
+            "description": "Provides tech to Israeli settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1200px-IBM_logo.svg.png",
+            "category": "High",
+            "supportType": "Technological",
+            "details": "Data systems for population registry in West Bank"
+        },
+        {
+            "name": "Oracle",
+            "description": "Provides database systems to Israel",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/1200px-Oracle_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Technological",
+            "details": "Software used by Israeli security services"
+        },
+        {
+            "name": "Cisco",
+            "description": "Invests in Israeli tech startups",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png",
+            "category": "Medium",
+            "supportType": "Economic/Technological",
+            "details": "$15M invested in Israeli surveillance companies"
+        },
+        {
+            "name": "Verizon",
+            "description": "Partners with Israeli telecom",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Verizon_2016_logo.svg/1200px-Verizon_2016_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Technological",
+            "details": "Works with Partner Communications in Israel"
+        },
+        {
+            "name": "AT&T",
+            "description": "Collaborates with Israeli tech firms",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/AT%26T_logo_2016.svg/1200px-AT%26T_logo_2016.svg.png",
+            "category": "Medium",
+            "supportType": "Technological",
+            "details": "Invests in Israeli cybersecurity startups"
+        },
+        {
+            "name": "Dell Technologies",
+            "description": "Provides tech to Israeli military",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_logo_2016.svg/1200px-Dell_logo_2016.svg.png",
+            "category": "Medium",
+            "supportType": "Technological",
+            "details": "Hardware supplier to IDF"
+        },
+        {
+            "name": "Qualcomm",
+            "description": "Invests in Israeli tech ($100M+)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Qualcomm-Logo.svg/1200px-Qualcomm-Logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic/Technological",
+            "details": "R&D centers in Israel developing military applications"
+        },
+        {
+            "name": "Nvidia",
+            "description": "Acquired Israeli chip maker ($6.9B)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/NVIDIA_logo.svg/1200px-NVIDIA_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Mellanox technologies used in Israeli surveillance"
+        },
+        {
+            "name": "Applied Materials",
+            "description": "Operates in Israel ($2B investment)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Applied_Materials_logo.svg/1200px-Applied_Materials_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Major semiconductor equipment supplier in Israel"
+        },
+        {
+            "name": "Broadcom",
+            "description": "Acquired Israeli company ($19B)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Broadcom_Inc._Logo.svg/1200px-Broadcom_Inc._Logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Purchased CA Technologies with Israeli military contracts"
+        },
+        {
+            "name": "KLA Corporation",
+            "description": "Israeli semiconductor equipment",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/KLA_Logo.svg/1200px-KLA_Logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Major operations in Israel with defense applications"
+        },
+        {
+            "name": "Lam Research",
+            "description": "Operates in Israel ($500M investment)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Lam_Research_logo.svg/1200px-Lam_Research_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Chip manufacturing equipment with military uses"
+        },
+        {
+            "name": "Analog Devices",
+            "description": "Acquired Israeli chip maker ($21B)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Analog_Devices_logo.svg/1200px-Analog_Devices_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Maxim Integrated products used in Israeli defense systems"
+        },
+        {
+            "name": "Synopsys",
+            "description": "Israeli chip design software",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Synopsys_Logo.svg/1200px-Synopsys_Logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Major R&D center in Israel"
+        },
+        {
+            "name": "Cadence Design",
+            "description": "Israeli chip design tools",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cadence_Design_Systems_logo.svg/1200px-Cadence_Design_Systems_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Develops technology with Israeli military applications"
+        },
+        {
+            "name": "Western Digital",
+            "description": "Israeli data storage ($19B acquisition)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Western_Digital_logo_2011.svg/1200px-Western_Digital_logo_2011.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Owns SanDisk with major Israeli operations"
+        },
+        {
+            "name": "Seagate",
+            "description": "Israeli R&D center",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Seagate_Technology_logo.svg/1200px-Seagate_Technology_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Data storage technology developed in Israel"
+        },
+        {
+            "name": "Micron Technology",
+            "description": "Israeli memory chip R&D",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Micron_Technology_logo.svg/1200px-Micron_Technology_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Develops technology with Israeli defense applications"
+        },
+        {
+            "name": "Texas Instruments",
+            "description": "Israeli chip design center",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Texas_Instruments_logo.svg/1200px-Texas_Instruments_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Military-grade semiconductors developed in Israel"
+        },
+        {
+            "name": "Applied Optoelectronics",
+            "description": "Israeli fiber optics tech",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Applied_Optoelectronics_Logo.svg/1200px-Applied_Optoelectronics_Logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Military communication technology"
+        },
+        {
+            "name": "CEVA",
+            "description": "Israeli DSP technology",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/CEVA_logo.svg/1200px-CEVA_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Licenses tech to Israeli defense contractors"
+        },
+        {
+            "name": "CyberArk",
+            "description": "Israeli cybersecurity firm",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/CyberArk_logo.svg/1200px-CyberArk_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Technological",
+            "details": "Provides security to Israeli military systems"
+        },
+        {
+            "name": "Check Point",
+            "description": "Israeli cybersecurity company",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Check_Point_logo.svg/1200px-Check_Point_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Technological",
+            "details": "Works closely with Israeli security agencies"
+        },
+        {
+            "name": "Nice Systems",
+            "description": "Israeli surveillance tech",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/NICE_Systems_logo.svg/1200px-NICE_Systems_logo.svg.png",
+            "category": "High",
+            "supportType": "Technological",
+            "details": "Provides monitoring systems used against Palestinians"
+        },
+        {
+            "name": "Amdocs",
+            "description": "Israeli telecom software",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Amdocs_logo.svg/1200px-Amdocs_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Technological",
+            "details": "Data systems used for population tracking"
+        },
+        {
+            "name": "Wix.com",
+            "description": "Israeli website builder",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Wix.com_website_logo.svg/1200px-Wix.com_website_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Hosts websites for settlement businesses"
+        },
+        {
+            "name": "Fiverr",
+            "description": "Israeli freelancing platform",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Fiverr_logo.svg/1200px-Fiverr_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Based in Tel Aviv with military ties"
+        },
+        {
+            "name": "Waze",
+            "description": "Israeli navigation app (Google-owned)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Waze_Logo_2022.svg/1200px-Waze_Logo_2022.svg.png",
+            "category": "Medium",
+            "supportType": "Technological",
+            "details": "Provides mapping data to Israeli military"
+        },
+        {
+            "name": "Mobileye",
+            "description": "Israeli autonomous vehicles (Intel-owned)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Mobileye_logo.svg/1200px-Mobileye_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic/Technological",
+            "details": "Technology adapted for military drones"
+        },
+        {
+            "name": "Nova Measuring",
+            "description": "Israeli semiconductor equipment",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Nova_Measuring_Instruments_logo.svg/1200px-Nova_Measuring_Instruments_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Chip tech with defense applications"
+        },
+        {
+            "name": "Tower Semiconductor",
+            "description": "Israeli chip manufacturer",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Tower_Semiconductor_logo.svg/1200px-Tower_Semiconductor_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Produces chips for military systems"
+        },
+        {
+            "name": "Camtek",
+            "description": "Israeli semiconductor inspection",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Camtek_logo.svg/1200px-Camtek_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Equipment used in defense electronics"
+        },
+        {
+            "name": "Orbotech",
+            "description": "Israeli PCB inspection (KLA-owned)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Orbotech_logo.svg/1200px-Orbotech_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Technology used in military electronics"
+        },
+        {
+            "name": "Strauss Group",
+            "description": "Israeli food company in settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Strauss_Group_logo.svg/1200px-Strauss_Group_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Operates factories in occupied territories"
+        },
+        {
+            "name": "Osem",
+            "description": "Israeli food company (Nestlé-owned)",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Osem_logo.svg/1200px-Osem_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Manufactures in illegal settlements"
+        },
+        {
+            "name": "Tnuva",
+            "description": "Israeli dairy company",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tnuva_logo.svg/1200px-Tnuva_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Sources milk from settlement farms"
+        },
+        {
+            "name": "Jaffa",
+            "description": "Israeli citrus brand",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Jaffa_oranges_logo.svg/1200px-Jaffa_oranges_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Grown on confiscated Palestinian land"
+        },
+        {
+            "name": "Mizrahi-Tefahot Bank",
+            "description": "Finances settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mizrahi-Tefahot_Bank_logo.svg/1200px-Mizrahi-Tefahot_Bank_logo.svg.png",
+            "category": "High",
+            "supportType": "Financial",
+            "details": "Provides loans for settlement construction"
+        },
+        {
+            "name": "Israel Discount Bank",
+            "description": "Operates in settlements",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Israel_Discount_Bank_logo.svg/1200px-Israel_Discount_Bank_logo.svg.png",
+            "category": "High",
+            "supportType": "Financial",
+            "details": "Services for settlers in occupied territories"
+        },
+        {
+            "name": "Magen David Adom",
+            "description": "Israeli Red Cross equivalent",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Magen_David_Adom_Logo.svg/1200px-Magen_David_Adom_Logo.svg.png",
+            "category": "Medium",
+            "supportType": "Political",
+            "details": "Discriminates against Palestinians in services"
+        },
+        {
+            "name": "Jewish National Fund",
+            "description": "Confiscates Palestinian land",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jewish_National_Fund_logo.svg/1200px-Jewish_National_Fund_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Political/Economic",
+            "details": "Responsible for displacing 100,000+ Palestinians"
+        },
+        {
+            "name": "El Al",
+            "description": "Israeli national airline",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/El_Al_logo.svg/1200px-El_Al_logo.svg.png",
+            "category": "Medium",
+            "supportType": "Economic",
+            "details": "Transports weapons and soldiers"
+        },
+        {
+            "name": "Israel Aerospace",
+            "description": "Military aircraft manufacturer",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Israel_Aerospace_Industries_logo.svg/1200px-Israel_Aerospace_Industries_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Produces drones used in Gaza attacks"
+        },
+        {
+            "name": "Rafael Advanced",
+            "description": "Israeli weapons manufacturer",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Rafael_Advanced_Defense_Systems_logo.svg/1200px-Rafael_Advanced_Defense_Systems_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Makes missiles used against Palestinians"
+        },
+        {
+            "name": "Israel Military Industries",
+            "description": "State weapons manufacturer",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/IMI_Systems_logo.svg/1200px-IMI_Systems_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Produces bullets used in occupation"
+        },
+        {
+            "name": "Israel Shipyards",
+            "description": "Naval weapons manufacturer",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Israel_Shipyards_logo.svg/1200px-Israel_Shipyards_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Builds warships enforcing Gaza blockade"
+        },
+        {
+            "name": "Plasan",
+            "description": "Armored vehicle manufacturer",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Plasan_logo.svg/1200px-Plasan_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Makes vehicles used in West Bank raids"
+        },
+        {
+            "name": "Elisra",
+            "description": "Electronic warfare systems",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Elisra_logo.svg/1200px-Elisra_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Jamming systems used against Palestinians"
+        },
+        {
+            "name": "Tadiran",
+            "description": "Military communications",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Tadiran_logo.svg/1200px-Tadiran_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Radios used by occupation forces"
+        },
+        {
+            "name": "Orbit",
+            "description": "Satellite communications",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Orbit_Communications_logo.svg/1200px-Orbit_Communications_logo.svg.png",
+            "category": "Urgent",
+            "supportType": "Military",
+            "details": "Provides tech for military drones"
+        }
+    ]
+
+    
+}

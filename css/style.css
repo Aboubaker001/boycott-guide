@@ -1,0 +1,113 @@
+/* Custom Styles */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap');
+
+/* Base Styles */
+body {
+  font-family: 'Tajawal', sans-serif;
+  direction: rtl;
+}
+
+/* Wave Shape */
+.clip-path-wave {
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%);
+}
+
+/* Custom Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8B0000;
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+}
+
+/* Transitions */
+a, button, input, .transition-all {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Pattern Background */
+.bg-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Card Hover Effect */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dark .hover-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile Menu Animation */
+.mobile-menu-enter {
+  max-height: 0;
+  opacity: 0;
+}
+
+.mobile-menu-enter-active {
+  max-height: 500px;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-exit {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.mobile-menu-exit-active {
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* Palestine Flag Colors */
+.bg-palestine-green {
+  background-color: #007A3D;
+}
+
+.bg-palestine-red {
+  background-color: #CE1126;
+}
+
+.text-palestine-green {
+  color: #007A3D;
+}
+
+.text-palestine-red {
+  color: #CE1126;
+}

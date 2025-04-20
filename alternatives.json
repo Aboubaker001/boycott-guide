@@ -1,0 +1,18 @@
+{
+    "__collections__": {
+        "alternatives": {
+            "doc1": {
+                "boycotted": "Danone",
+                "alternative": "حليب الأصيل",
+                "category": "food",
+                "approved": true
+            },
+            "doc2": {
+                "boycotted": "Nestlé",
+                "alternative": "قهوة القصبة",
+                "category": "beverages",
+                "approved": true
+            }
+        }
+    }
+}
